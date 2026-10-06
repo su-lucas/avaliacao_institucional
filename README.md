@@ -17,5 +17,5 @@ O projeto foi dividido em três apps:
 ### 1. Clonar o repositório
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/su-lucas/avaliacao_institucional.git
 cd avaliacao-institucional/backend
