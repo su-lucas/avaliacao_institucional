@@ -12,16 +12,6 @@ O projeto foi dividido em três apps:
 - disciplinas
 - avaliacoes
 
-## Como executar o projeto
-
-### 1. Clonar o repositório
-
-```bash
-git clone https://github.com/su-lucas/avaliacao_institucional.git
-cd avaliacao-institucional/backend
-
-
-
 ## Perguntas
 
 ### 1. Por que usamos um ambiente virtual em cada projeto?
@@ -35,3 +25,12 @@ Porque cada app tem uma responsabilidade diferente. O app de alunos cuida dos al
 ### 3. Para que servem `makemigrations` e `migrate`, e por que nessa ordem?
 
 O `makemigrations` cria os arquivos de alteração com base nas mudanças feitas nos models. Já o `migrate` aplica essas alterações no banco de dados. Por isso, primeiro eu gero as mudanças com `makemigrations` e depois aplico no banco com `migrate`.
+
+
+## Como executar o projeto
+
+### 1. Clonar o repositório
+
+```bash
+git clone https://github.com/su-lucas/avaliacao_institucional.git
+cd avaliacao-institucional/backend
